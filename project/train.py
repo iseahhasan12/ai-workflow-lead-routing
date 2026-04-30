@@ -175,7 +175,7 @@ labels = [x[1] for x in train_ex]
 
 model = Pipeline([
     ("tfidf", TfidfVectorizer(ngram_range=(1, 2))),
-    ("clf", LogisticRegression(max_iter=1000))
+    ("clf", LogisticRegression(max_iter=1000, verbose=True))
     ])
 
 model.fit(txts, labels)
