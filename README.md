@@ -17,7 +17,7 @@ This system is designed to simulate an AI-driven workflow to process, classify, 
 - scikit-learn
 - Streamlit
 
-## How it works
+## How It Works
 1. User submits a service request
 2. System validates input and verifies spam
 3. Request is classified using rules-based logic or a machine learning model (Logistic Regression and TfidVectorizer (TF-IDF))
